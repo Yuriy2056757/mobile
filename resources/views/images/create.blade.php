@@ -21,7 +21,7 @@
     <div>
       <input
         type="file"
-        accept="image/*"
+        accept="image/*;capture=camera"
         capture="camera"
         name="image"
         onchange="document.getElementById('image_preview').src = window.URL.createObjectURL(this.files[0])"
